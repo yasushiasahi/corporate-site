@@ -361,6 +361,7 @@ h1 {
 }
 #contents #main .news_li li {
   list-style: none;
+  line-height: 3rem;
 }
 #contents #main .news_li li span {
   color: #42b9d0;
@@ -375,6 +376,7 @@ h1 {
 }
 #contents #main .company_info th {
   padding: 20px 20px 20px 0;
+  width: 33.33333%;
 }
 #contents #main .company_info td {
   padding: 20px 0;
@@ -439,6 +441,17 @@ h1 {
 #contents #sideber .pc_sidemenu li a {
   color: #339fd1;
   text-decoration: none;
+}
+#contents #sideber .fb_api {
+  width: 50%;
+}
+@media (min-width: 551px) {
+  #contents #sideber .fb_api {
+    width: 100%;
+  }
+  #contents #sideber .fb_api iframe {
+    width: 110%;
+  }
 }
 
 /*# sourceMappingURL=sample.css.map */

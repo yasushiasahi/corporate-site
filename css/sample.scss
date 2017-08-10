@@ -398,6 +398,7 @@ h1 {
       @include fontsize(15);
       li {
         list-style: none;
+        line-height: 3rem;
         span {
           color: $blue1;
           font-weight: bold;
@@ -411,6 +412,7 @@ h1 {
       color: #626262;
       th {
         padding: 20px 20px 20px 0;
+        width: 33.3333333%
       }
       td {
         padding: 20px 0;
@@ -476,6 +478,17 @@ h1 {
         a {
           color: $blue2;
           text-decoration: none;
+        }
+      }
+    }
+    .fb_api {
+      width: 50%;
+    }
+    @media (min-width: 551px) {
+      .fb_api {
+        width: 100%;
+        iframe {
+          width: 110%;
         }
       }
     }
